@@ -1,0 +1,177 @@
+body,p{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 2em;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav img {
+    height: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    margin-bottom: 10px;
+}
+
+.propic:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 gainsboro;
+    border-radius: 20px;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+input{
+    width: 80%;
+    padding: 1em;
+    border-radius: 80px;
+    border: 1px solid grey;
+    
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 38px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.input-container > input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+
+.input-container:hover {
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+
+.fa-search {
+    padding: 10px;
+}
+
+.fa-microphone {
+    padding: 10px;
+}
+
+.fa-search:hover {
+    cursor: pointer;
+}
+
+.fa-microphone:hover {
+    cursor: pointer;
+}
+
+
+.btns_container{
+    margin-top: 1em;
+}
+.btns_container button{
+    padding: 1em;
+    border: none;
+    
+}
+footer{
+    background-color: rgb(241, 226, 226);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer_top{
+    padding: 1em;
+}
+.footer_bottom{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+
+}
+.left a{
+    margin-right: 1em;
+}
+.right a{
+    margin-right: 1em;
+}
+
+@media screen and (max-width: 768px) {
+   body {
+        overflow-x: hidden;
+        
+    }
+
+    nav {
+        margin-left: 60%;
+    }
+
+   nav a {
+        padding: 5px 10px;
+    }
+
+    nav img {
+        padding: 5px 10px;
+        margin-right: 5px;
+    }
+
+    .foot {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 15px 10px;
+        text-align: left;
+        align-items: center;
+    }
+
+    .footer_top {
+        margin: 0px;
+    }
+
+    .left {
+        margin-right: 90px;
+        justify-content: center;
+    }
+
+    .menu {
+        justify-content: space-between;
+        margin-left: 0px;
+        
+    }
+
+    .right {
+        margin-right: 0px;
+        justify-content: space-between;
+    }
+
+    .input-container {
+        width: 80vw;
+    }
+}
+    
